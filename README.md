@@ -1,5 +1,5 @@
-- aws eks --region ap-south-1 describe-cluster --name pc-eks --query cluster.status
-- aws eks --region ap-south-1 update-kubeconfig --name pc-eks
+- aws eks --region ap-south-1 describe-cluster --name <cluster-name> --query cluster.status
+- aws eks --region ap-south-1 update-kubeconfig --name <cluster-name>
 
 # Error
 E0707 10:53:48.769751    1822 memcache.go:265] couldn't get current server API group list: the server has asked for the client to provide credentials
